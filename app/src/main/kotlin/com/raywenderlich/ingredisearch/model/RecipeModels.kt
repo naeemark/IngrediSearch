@@ -1,4 +1,4 @@
-package com.raywenderlich.ingredisearch
+package com.raywenderlich.ingredisearch.model
 
 data class RecipesContainer(val recipes: List<Recipe>)
 

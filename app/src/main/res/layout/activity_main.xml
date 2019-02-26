@@ -6,7 +6,7 @@
     android:layout_height="match_parent"
     android:orientation="vertical"
     android:padding="16dp"
-    tools:context="com.raywenderlich.ingredisearch.MainActivity">
+    tools:context="com.raywenderlich.ingredisearch.view.MainActivity">
 
     <LinearLayout
         android:id="@+id/searchButton"

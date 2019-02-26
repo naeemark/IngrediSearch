@@ -1,4 +1,4 @@
-package com.raywenderlich.ingredisearch.base
+package com.raywenderlich.ingredisearch.presenter
 
 
 abstract class BasePresenter<V> {

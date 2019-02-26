@@ -1,4 +1,4 @@
-package com.raywenderlich.ingredisearch
+package com.raywenderlich.ingredisearch.view
 
 import android.os.Bundle
 import android.support.v7.app.AppCompatActivity

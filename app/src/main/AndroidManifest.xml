@@ -14,7 +14,7 @@
         android:theme="@style/AppTheme"
         tools:ignore="GoogleAppIndexingWarning">
         <activity
-            android:name=".MainActivity"
+            android:name=".view.MainActivity"
             android:label="@string/main_title">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -23,16 +23,16 @@
             </intent-filter>
         </activity>
         <activity
-            android:name=".SearchActivity"
+            android:name=".view.SearchActivity"
             android:label="@string/search_title" />
         <activity
-            android:name=".SearchResultsActivity"
+            android:name=".view.SearchResultsActivity"
             android:label="@string/results_title" />
         <activity
-            android:name=".FavoritesActivity"
+            android:name=".view.FavoritesActivity"
             android:label="@string/favorites_title" />
         <activity
-            android:name=".RecipeActivity"
+            android:name=".view.RecipeActivity"
             android:label="@string/recipe_title" />
     </application>
 

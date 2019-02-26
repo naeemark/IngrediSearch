@@ -1,6 +1,4 @@
-package com.raywenderlich.ingredisearch
-
-import com.raywenderlich.ingredisearch.base.BasePresenter
+package com.raywenderlich.ingredisearch.presenter
 
 
 class SearchPresenter : BasePresenter<SearchPresenter.View>() {

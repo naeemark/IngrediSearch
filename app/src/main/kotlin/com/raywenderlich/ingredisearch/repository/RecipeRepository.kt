@@ -1,9 +1,12 @@
-package com.raywenderlich.ingredisearch
+package com.raywenderlich.ingredisearch.repository
 
 import android.content.Context
 import android.content.SharedPreferences
 import com.google.gson.Gson
 import com.google.gson.reflect.TypeToken
+import com.raywenderlich.ingredisearch.model.Recipe
+import com.raywenderlich.ingredisearch.api.RecipeApi
+import com.raywenderlich.ingredisearch.model.RecipesContainer
 import retrofit2.Call
 import retrofit2.Callback
 import retrofit2.Response

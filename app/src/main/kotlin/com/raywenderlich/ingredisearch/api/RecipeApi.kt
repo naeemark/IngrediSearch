@@ -1,7 +1,9 @@
-package com.raywenderlich.ingredisearch
+package com.raywenderlich.ingredisearch.api
 
 import com.google.gson.FieldNamingPolicy
 import com.google.gson.GsonBuilder
+import com.raywenderlich.ingredisearch.BuildConfig
+import com.raywenderlich.ingredisearch.model.RecipesContainer
 import retrofit2.Call
 import retrofit2.Retrofit
 import retrofit2.converter.gson.GsonConverterFactory

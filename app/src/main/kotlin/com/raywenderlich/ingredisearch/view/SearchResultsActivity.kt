@@ -1,10 +1,14 @@
-package com.raywenderlich.ingredisearch
+package com.raywenderlich.ingredisearch.view
 
 import android.content.Context
 import android.content.Intent
 import android.os.Bundle
 import android.support.v7.widget.LinearLayoutManager
 import android.view.View
+import com.raywenderlich.ingredisearch.R
+import com.raywenderlich.ingredisearch.presenter.SearchResultsPresenter
+import com.raywenderlich.ingredisearch.model.Recipe
+import com.raywenderlich.ingredisearch.repository.RecipeRepository
 import kotlinx.android.synthetic.main.activity_list.*
 import kotlinx.android.synthetic.main.view_error.*
 import kotlinx.android.synthetic.main.view_loading.*

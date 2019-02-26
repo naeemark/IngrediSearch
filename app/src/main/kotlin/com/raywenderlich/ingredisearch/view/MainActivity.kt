@@ -1,8 +1,9 @@
-package com.raywenderlich.ingredisearch
+package com.raywenderlich.ingredisearch.view
 
 import android.content.Intent
 import android.os.Bundle
 import android.support.v7.app.AppCompatActivity
+import com.raywenderlich.ingredisearch.R
 import kotlinx.android.synthetic.main.activity_main.*
 
 class MainActivity : AppCompatActivity() {

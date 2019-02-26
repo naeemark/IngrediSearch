@@ -1,9 +1,10 @@
-package com.raywenderlich.ingredisearch
+package com.raywenderlich.ingredisearch.view
 
 import android.content.Context
 import android.content.Intent
 import android.os.Bundle
 import android.webkit.WebViewClient
+import com.raywenderlich.ingredisearch.R
 import kotlinx.android.synthetic.main.activity_recipe.*
 
 

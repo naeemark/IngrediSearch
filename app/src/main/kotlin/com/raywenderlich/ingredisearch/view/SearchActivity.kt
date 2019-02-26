@@ -1,9 +1,11 @@
-package com.raywenderlich.ingredisearch
+package com.raywenderlich.ingredisearch.view
 
 import android.content.Context
 import android.os.Bundle
 import android.support.design.widget.Snackbar
 import android.view.inputmethod.InputMethodManager
+import com.raywenderlich.ingredisearch.R
+import com.raywenderlich.ingredisearch.presenter.SearchPresenter
 import kotlinx.android.synthetic.main.activity_search.*
 
 

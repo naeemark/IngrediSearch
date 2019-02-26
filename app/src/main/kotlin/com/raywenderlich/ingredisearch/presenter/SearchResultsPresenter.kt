@@ -1,6 +1,7 @@
-package com.raywenderlich.ingredisearch
+package com.raywenderlich.ingredisearch.presenter
 
-import com.raywenderlich.ingredisearch.base.BasePresenter
+import com.raywenderlich.ingredisearch.model.Recipe
+import com.raywenderlich.ingredisearch.repository.RecipeRepository
 
 
 class SearchResultsPresenter(private val repository: RecipeRepository) :
