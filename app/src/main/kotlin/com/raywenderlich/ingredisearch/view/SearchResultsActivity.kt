@@ -8,7 +8,7 @@ import android.view.View
 import com.raywenderlich.ingredisearch.R
 import com.raywenderlich.ingredisearch.presenter.SearchResultsPresenter
 import com.raywenderlich.ingredisearch.model.Recipe
-import com.raywenderlich.ingredisearch.repository.RecipeRepository
+import com.raywenderlich.ingredisearch.repository.RecipeRepositoryImpl
 import kotlinx.android.synthetic.main.activity_list.*
 import kotlinx.android.synthetic.main.view_error.*
 import kotlinx.android.synthetic.main.view_loading.*
@@ -24,7 +24,7 @@ private const val EXTRA_QUERY = "EXTRA_QUERY"
 
 class SearchResultsActivity : ChildActivity(), SearchResultsPresenter.View {
 
-    private val presenter: SearchResultsPresenter by lazy { SearchResultsPresenter(RecipeRepository.getRepository(this)) }
+    private val presenter: SearchResultsPresenter by lazy { SearchResultsPresenter(RecipeRepositoryImpl.getRepository(this)) }
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
